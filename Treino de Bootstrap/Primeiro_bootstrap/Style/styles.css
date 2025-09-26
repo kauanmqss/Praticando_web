@@ -1,0 +1,34 @@
+:root {
+  --bs-primary: #ff1493;
+  --bs-primary-rgb: 255, 20, 147;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+h1{
+    color: #5900ff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#buttonExample{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#buttonExample {
+  background-color: #4e2c9c; 
+  border-color: #4e2c9c;
+  color: #fff;
+}
+
+#buttonExample:hover {
+  background-color: #27164e; /* tom mais escuro no hover */
+  border-color: #27164e;
+}
