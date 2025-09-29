@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de um site com Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+<body>
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" id="Logo">
+      Bootstrap
+    </a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<section class="content">
+    <h1>Título do site</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsa ad nihil illo iure voluptatum incidunt, ipsum eligendi quae nobis, architecto natus totam iste veritatis ullam? Nam voluptates earum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam ullam saepe a natus, quam ipsum vel deleniti vitae veritatis ipsa voluptate dolor impedit dolores repellendus magnam. Veniam, consequuntur magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam ab, perspiciatis doloremque quibusdam eaque voluptate suscipit recusandae eligendi nam at exercitationem cum, porro enim? Fugiat assumenda consectetur fuga numquam.</p>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>    
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://starkcloudglobal.com/hubfs/Futuro%20del%20Desarrollo%20de%20Software.webp" class="d-block w-100" alt="eu-triste-tambem">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.creative-tim.com/blog/content/images/size/w960/2022/01/which-development-job-is-right-for-you.jpg" class="d-block w-100" alt="eu-triste-tambem">
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.intuji.com/2022/08/Software-development-digital-transformation_comp-scaled-1.jpeg" class="d-block w-100" alt="eu-agora">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="grid text-center">
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+</div>
+</section>
+</body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html>
